@@ -1,0 +1,30 @@
+/* //Preloader */
+body {
+    margin: 0;
+  }
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    background: #fff;
+    z-index: 1001;
+  }
+  
+.preloader__image {
+    position: relative;
+    width: 750px;
+    height: 1334px;
+    background: url(../img/preload.gif) no-repeat 50% 50%;
+}
+  
+.loaded_hiding .preloader {
+    transition: 5s;
+}
+.loaded .preloader {
+    display: none;
+}
+
+

@@ -1,0 +1,11 @@
+@media screen and (orientation:landscape) {
+    /* Стили для портретной */
+    body{
+        background-image: url(../img/not_available.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .wrap{
+        display: none;
+    }
+}
